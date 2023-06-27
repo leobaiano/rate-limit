@@ -30,6 +30,8 @@ This client's code is programmed to make requests to the API until it receives 5
 2. Run the `pip install requests` command to install the library used to make HTTP requests
 3. Run the command `python client.py` so that the requests are made.
 
+![Client Python](images/client-python.jpg)
+
 ## How to contribute
 
 You can contribute to the source code in our [GitHub](https://github.com/leobaiano/rate-limit) page.

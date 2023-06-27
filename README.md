@@ -20,17 +20,25 @@ If everything went well you should get a `Hello, World!` return message.
 
 ### Up Clients
 
+Important: Before running a client, it is necessary to load the server as indicated above in these documents.  
+
+The client code is programmed to make requests to the API until it receives 5 status code 409, that is, when it is blocked by the rate limit applied in the API. 
+
 **Python**
-
-Important: Before following the steps below, you must upload the server  
-
-This client's code is programmed to make requests to the API until it receives 5 status code 409, that is, when it is blocked by the rate limit applied in the API.  
 
 1. Go to the `clients/python` directory
 2. Run the `pip install requests` command to install the library used to make HTTP requests
 3. Run the command `python client.py` so that the requests are made.
 
 ![Client Python](images/client-python.jpg)
+
+**NodeJS**
+
+1. Go to the `clients/nodejs` directory
+2. Run the `npm install` command to install the dependencies
+3. Run the `node client.js` command to run the client
+
+![Client NodeJS](images/client-nodejs.jpg)
 
 ## How to contribute
 

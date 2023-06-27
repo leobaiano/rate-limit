@@ -18,6 +18,18 @@ Rate Limit is a good security practice for the API's, basically you define how m
 
 If everything went well you should get a `Hello, World!` return message.
 
+### Up Clients
+
+**Python**
+
+Important: Before following the steps below, you must upload the server  
+
+This client's code is programmed to make requests to the API until it receives 5 status code 409, that is, when it is blocked by the rate limit applied in the API.  
+
+1. Go to the `clients/python` directory
+2. Run the `pip install requests` command to install the library used to make HTTP requests
+3. Run the command `python client.py` so that the requests are made.
+
 ## How to contribute
 
 You can contribute to the source code in our [GitHub](https://github.com/leobaiano/rate-limit) page.
